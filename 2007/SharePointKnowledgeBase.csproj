@@ -38,7 +38,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>GAC\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -46,27 +46,31 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>GAC\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebPartCode\SharePointKnowledgeBaseWebPart.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="12\TEMPLATE\FEATURES\BilSimser.SharePointKnowledgeBase\elements.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\BilSimser.SharePointKnowledgeBase\feature.xml" />
+    <Content Include="GAC\SharePointKnowledgeBase.dll" />
     <Content Include="solutionid.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="80\wpcatalog\SharePointKnowledgeBaseWebPart.webpart" />
     <None Include="SharePointKnowledgeBase.snk" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="12\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

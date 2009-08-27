@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="3577ac0b-974f-41f8-afce-958707df4fcd"
+          Title="SharePoint Knowledge Base"
+          Description="The SharePoint Knowledgebase is a free, open source, web part that provides a structured knowledge base system for Microsoft Office SharePoint Server 2007 and Windows SharePoint Services 3.0."
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>
+  </ElementManifests>
+</Feature>

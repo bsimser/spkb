@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="SharePointKnowledgeBase.SharePointKnowledgeBaseWebPart, SharePointKnowledgeBase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f11c3a4d296cb69" />
+      <importErrorMessage>Cannot import SharePoint Knowledge Base Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">SharePoint Knowledge Base</property>
+        <property name="Description" type="string">The SharePoint Knowledgebase is a free, open source, web part that provides a structured knowledge base system for Microsoft Office SharePoint Server 2007 and Windows SharePoint Services 3.0.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

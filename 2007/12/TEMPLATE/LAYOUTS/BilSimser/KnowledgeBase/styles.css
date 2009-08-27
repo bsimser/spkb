@@ -1,0 +1,33 @@
+﻿.spkb
+{
+    width:100%;
+}
+.spkb-trail
+{
+    border-bottom:dotted 1px #808080;
+    border-top:dotted 1px #808080;
+    padding-bottom:5px;
+    padding-top:5px;
+    font-size:11px;
+}
+.spkb-message
+{
+    font-size:12px;
+    background-color:#ffffe0;
+    border:1px solid #808080;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:5px;
+}
+.spkb-heading
+{
+    border-bottom:solid 10px white;
+    background-color:#f3f3f3;
+    padding-left:5px;
+    height:36px;
+    font-size:9pt;
+    border-top:solid 1px #d6d6d6;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:15px;
+}

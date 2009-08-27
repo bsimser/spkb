@@ -60,12 +60,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebPartCode\Application\ForumConstants.cs" />
+    <Compile Include="WebPartCode\Application\Identity.cs" />
+    <Compile Include="WebPartCode\Application\UrlQuery.cs" />
+    <Compile Include="WebPartCode\Controls\BaseControl.cs" />
+    <Compile Include="WebPartCode\Controls\BrowseByCategory.cs" />
+    <Compile Include="WebPartCode\Controls\FeaturedArticles.cs" />
+    <Compile Include="WebPartCode\Controls\Footer.cs" />
+    <Compile Include="WebPartCode\Controls\Header.cs" />
+    <Compile Include="WebPartCode\Controls\Home.cs" />
+    <Compile Include="WebPartCode\Controls\Message.cs" />
+    <Compile Include="WebPartCode\Controls\MostPopularArticles.cs" />
+    <Compile Include="WebPartCode\Controls\RecentEntries.cs" />
+    <Compile Include="WebPartCode\Controls\Search.cs" />
+    <Compile Include="WebPartCode\Controls\SharePointForumControls.cs" />
+    <Compile Include="WebPartCode\Controls\Trail.cs" />
+    <Compile Include="WebPartCode\Controls\ViewArticlesByCategory.cs" />
     <Compile Include="WebPartCode\SharePointKnowledgeBaseWebPart.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="12\TEMPLATE\FEATURES\BilSimser.SharePointKnowledgeBase\elements.xml" />
     <Content Include="12\TEMPLATE\FEATURES\BilSimser.SharePointKnowledgeBase\feature.xml" />
+    <Content Include="12\TEMPLATE\LAYOUTS\BilSimser\KnowledgeBase\1033.lng.xml" />
     <Content Include="GAC\SharePointKnowledgeBase.dll" />
+    <Content Include="12\TEMPLATE\LAYOUTS\BilSimser\KnowledgeBase\styles.css" />
     <Content Include="solutionid.txt" />
   </ItemGroup>
   <ItemGroup>

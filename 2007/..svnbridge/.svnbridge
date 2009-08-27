@@ -3,4 +3,10 @@
 GAC
 bin
 obj
+</Value></Property><Property><Name>svn:ignore</Name><Value>*.suo
+*.user
+*.wsp
+GAC
+bin
+obj
 </Value></Property></Properties></ItemProperties>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Filename: 1033.lng.xml -->
+<!-- Description: English translation resource file for SharePoint Knowledge Base Web Part -->
+<!-- Author: Bil Simser (emailme@bilsimser.com) -->
+<strings>
+  <string id="Text.Quote">Quote</string>
+  <string id="Text.Edit">Edit</string>
+  <string id="Text.Posted">Posted</string>
+  <string id="Text.NewTopic">New Topic</string>
+  <string id="Text.DeleteTopic">Delete Topic</string>
+  <string id="Text.Topics">Topics</string>
+  <string id="Text.Replies">Replies</string>
+  <string id="Text.Author">Author</string>
+  <string id="Text.Views">Views</string>
+  <string id="Text.LastPost">Last Post</string>
+  <string id="Text.RSS">RSS</string>
+  <string id="Text.Reply">Reply</string>
+  <string id="UserInfoBox.View">Viewing User Profile for</string>
+  <string id="UserInfoBox.Joined">Joined</string>
+  <string id="UserInfoBox.LastVisit">Last Visit</string>
+  <string id="UserInfoBox.Posts">Posts</string>
+  <string id="UserInfoBox.NumberOfPosts">Number of Posts</string>
+  <string id="UserInfoBox.Email">Email</string>
+  <string id="Toolbar.Home">Home</string>
+  <string id="Toolbar.Search">Search</string>
+  <string id="Toolbar.MyProfile">My Profile</string>
+  <string id="Toolbar.Members">Members</string>
+  <string id="Toolbar.Admin">Admin</string>
+</strings>
